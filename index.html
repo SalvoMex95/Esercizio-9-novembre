@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Search</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Job Search</h1>
+        <div id="search-bar">
+            <input class="search-input" type="text" id="title" placeholder="Inserisci il titolo del lavoro">
+            <input class="search-input" type="text" id="location" placeholder="Inserisci la posizione">
+            <button class="search-button" onclick="displayResults()"> Cerca </button>
+        </div>
+        <h2>Risultati della ricerca</h2>
+        <ul id="results"></ul>
+    </div>
+
+    <script src="scaricabile.js"></script>
+</body>
+
+</html>
